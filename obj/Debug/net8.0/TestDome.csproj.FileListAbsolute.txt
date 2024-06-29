@@ -12,3 +12,4 @@ D:\Gyan\RnD\TestDome\obj\Debug\net8.0\refint\TestDome.dll
 D:\Gyan\RnD\TestDome\obj\Debug\net8.0\TestDome.pdb
 D:\Gyan\RnD\TestDome\obj\Debug\net8.0\TestDome.genruntimeconfig.cache
 D:\Gyan\RnD\TestDome\obj\Debug\net8.0\ref\TestDome.dll
+D:\Gyan\RnD\TestDome\obj\Debug\net8.0\TestDome.sourcelink.json

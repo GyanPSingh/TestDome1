@@ -12,23 +12,24 @@ public class Folders
 
         // Extract folder names that start with the specified letter
         var folderNames = doc.Descendants("folder").
-			Select(element => element.Attribute("name").Value).Where(name => !string.IsNullOrEmpty(name) && name[0] == startingLetter);
+            Select(element => element.Attribute("name").Value).Where(name => !string.IsNullOrEmpty(name) && name[0] == startingLetter);
 
         return folderNames;
     }
+    /*
+        public static void Main(string[] args)
+        {
+            string xml =
+                "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" +
+                "<folder name=\"c\">" +
+                    "<folder name=\"program files\">" +
+                        "<folder name=\"uninstall information\" />" +
+                    "</folder>" +
+                    "<folder name=\"users\" />" +
+                "</folder>";
 
-    public static void Main(string[] args)
-    {
-        string xml =
-            "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" +
-            "<folder name=\"c\">" +
-                "<folder name=\"program files\">" +
-                    "<folder name=\"uninstall information\" />" +
-                "</folder>" +
-                "<folder name=\"users\" />" +
-            "</folder>";
-
-        foreach (string name in Folders.FolderNames(xml, 'u'))
-            Console.WriteLine(name);
-    }
+            foreach (string name in Folders.FolderNames(xml, 'u'))
+                Console.WriteLine(name);
+        }
+        */
 }
