@@ -1,0 +1,14 @@
+D:\Gyan\RnD\TestDome\bin\Debug\net8.0\TestDome.exe
+D:\Gyan\RnD\TestDome\bin\Debug\net8.0\TestDome.deps.json
+D:\Gyan\RnD\TestDome\bin\Debug\net8.0\TestDome.runtimeconfig.json
+D:\Gyan\RnD\TestDome\bin\Debug\net8.0\TestDome.dll
+D:\Gyan\RnD\TestDome\bin\Debug\net8.0\TestDome.pdb
+D:\Gyan\RnD\TestDome\obj\Debug\net8.0\TestDome.GeneratedMSBuildEditorConfig.editorconfig
+D:\Gyan\RnD\TestDome\obj\Debug\net8.0\TestDome.AssemblyInfoInputs.cache
+D:\Gyan\RnD\TestDome\obj\Debug\net8.0\TestDome.AssemblyInfo.cs
+D:\Gyan\RnD\TestDome\obj\Debug\net8.0\TestDome.csproj.CoreCompileInputs.cache
+D:\Gyan\RnD\TestDome\obj\Debug\net8.0\TestDome.dll
+D:\Gyan\RnD\TestDome\obj\Debug\net8.0\refint\TestDome.dll
+D:\Gyan\RnD\TestDome\obj\Debug\net8.0\TestDome.pdb
+D:\Gyan\RnD\TestDome\obj\Debug\net8.0\TestDome.genruntimeconfig.cache
+D:\Gyan\RnD\TestDome\obj\Debug\net8.0\ref\TestDome.dll
