@@ -110,10 +110,11 @@ public class HTMLParser
         return stack.Count == 0 ? "true" : stack.Peek().Substring(1, stack.Peek().Length - 2);
     }
 
-    public static void Main()
+/*    public static void Main()
     {
         Console.WriteLine(HTMLParser.CheckHTMLElements1("<div><div><b></b></div></p>")); // Output: div
         Console.WriteLine(HTMLParser.CheckHTMLElements1("<div>abc</div><p><em><i>test test test</b></em></p>")); // Output: i
         Console.WriteLine(HTMLParser.CheckHTMLElements1("<div><b><p>hello world</p></b></div>")); // Output: true
     }
+    */
 }
