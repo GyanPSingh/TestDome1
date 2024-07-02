@@ -28,20 +28,21 @@ class TwoSum
 
         return result;
     }
-
-    public static void Main(string[] args)
-    {
-        List<Tuple<int, int>> indices = FindAllTwoSum(new List<int>() { 3, 1, 5, 7, 5, 9 }, 10);
-        if (indices.Count > 0)
+    /*
+        public static void Main(string[] args)
         {
-            foreach (var pair in indices)
+            List<Tuple<int, int>> indices = FindAllTwoSum(new List<int>() { 3, 1, 5, 7, 5, 9 }, 10);
+            if (indices.Count > 0)
             {
-                Console.WriteLine(pair.Item1 + " " + pair.Item2);
+                foreach (var pair in indices)
+                {
+                    Console.WriteLine(pair.Item1 + " " + pair.Item2);
+                }
+            }
+            else
+            {
+                Console.WriteLine("No two sum solution found");
             }
         }
-        else
-        {
-            Console.WriteLine("No two sum solution found");
-        }
-    }
+        */
 }
