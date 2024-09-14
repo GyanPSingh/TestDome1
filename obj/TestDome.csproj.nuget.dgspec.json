@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Gyan\\RnD\\TestDome\\TestDome.csproj": {}
+    "d:\\Gyan\\RnD\\TestDome\\TestDome.csproj": {}
   },
   "projects": {
-    "D:\\Gyan\\RnD\\TestDome\\TestDome.csproj": {
+    "d:\\Gyan\\RnD\\TestDome\\TestDome.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Gyan\\RnD\\TestDome\\TestDome.csproj",
+        "projectUniqueName": "d:\\Gyan\\RnD\\TestDome\\TestDome.csproj",
         "projectName": "TestDome",
-        "projectPath": "D:\\Gyan\\RnD\\TestDome\\TestDome.csproj",
+        "projectPath": "d:\\Gyan\\RnD\\TestDome\\TestDome.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\Gyan\\RnD\\TestDome\\obj\\",
+        "outputPath": "d:\\Gyan\\RnD\\TestDome\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"

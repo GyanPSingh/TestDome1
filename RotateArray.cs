@@ -2,17 +2,26 @@ using System;
 
 public class Program
 {
-    public static void Main(string[] args)
-    {
-        int[] nums = new int[] { 1, 2, 3, 4, 5, 6, 7 }; // Corrected array initialization
-        int k = 3;
+    // public static void Main(string[] args)
+    // {
+    //    // Program program = new Program();
 
-        var result = RotateArray(nums, k);
-        foreach (int i in result)
-        {
-            Console.Write(i + " "); // Changed to write on the same line
-        }
-    }
+    //     // program.Do();
+
+    //     int[] nums = new int[] { 1, 2, 3, 4, 5, 6, 7 }; // Corrected array initialization
+    //     int k = 4;
+
+    //     foreach (int i in nums)
+    //     {
+    //         Console.Write(i + " "); // Changed to write on the same line
+    //     }
+    //     System.Console.WriteLine();
+    //     var result = RotateArray(nums, k);
+    //     foreach (int i in result)
+    //     {
+    //         Console.Write(i + " "); // Changed to write on the same line
+    //     }
+    // }
 
     public static int[] RotateArray(int[] nums, int k)
     {
@@ -28,5 +37,10 @@ public class Program
         }
 
         return rotatedArray;
+    }
+
+    public void Do(Func<int, int> f)
+    {
+        f(5);
     }
 }
